@@ -32,6 +32,18 @@
 # Update your previous method or function so it accepts an array. 
 # The method or function should return a boolean that describes 
 # whether or not the array's length is an even number.
+    # 1) *Restate Goal* Write method that evaluates if the array's lenght
+    #    value is even and returns T or F.
+    # 2) *Consider Data* The parameter is an array, argument an integer
+    #      that counts the number of elements of the parameter which is
+    #      evaluated if it is an even number (T) or not (F).
+    # 3) *Clarifying Questions* Will the method of: Array lenght exist?
+    # 4) *Break it down* Write a method. Parameter is an array. Call a 
+    #      method on the array to find the lenght of it. Asign this
+    #      integer to a variable and call a method on the integer to find and 
+    #      return if it is true or false it is an integer.
+    # 5) *Research* Google Ruby method array lenght.
+    # 6)
 
 # REFLECTION
 # What do you like about this process?

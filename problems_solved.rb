@@ -64,7 +64,7 @@
 
 #Challenge 3
 # Write a method or function that accepts a number from 1-24 that 
-# represents the current time rounted to the closest hour in 24-hour 
+# represents the current time rounded to the closest hour in 24-hour 
 # military time. (i.e. 11 = 11:00 AM, 16 = 4:00 PM). The function 
 # should return a different greeting based on the time of day.
 
@@ -72,6 +72,20 @@
 # 12 PM - 4 PM: Good afternoon!
 # 5 PM - 8PM: Good evening!
 # 9 PM - 3 AM: Good night!
+
+   # 1) *Restate Goal* Write method called on an integer variable that needs to 
+   #      be greater or equal to 1 and less than or equal to 24 that expresses
+   #      in military time and transforms it to the format HR:MIN AM/PM and
+   #      returns a specific greeting based on the time of day.
+    # 2) *Consider Data* The parameter is an integer, argument a string
+    #      that shows the parameter in the desired format return a specific
+    #       string.
+    # 3) *Clarifying Questions* Will the method of: XXX exist?
+    # 4) *Break it down* Write a method. Parameter is XX. Call a 
+    #      method on the XXX to find XXX.
+    # 5) *Research* Google Ruby method XXX.
+    # 6)
+
 
 # Challenge 4 - OPTIONAL! Spicy!
 # Write a method or function that accepts an array of 10 integers 

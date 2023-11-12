@@ -25,6 +25,8 @@
     # 7) *Stuck?* No
     # 8) *Refactor*
     find_numcharacters_even_streetaddress("200 Sunshine Canyon Drive")
+    find_numcharacters_even_streetaddress("3 Community Park Rd")
+    find_numcharacters_even_streetaddress("1830 Marshall Rd")
 
 # Challenge 2
 # Update your previous method or function so it accepts an array. 

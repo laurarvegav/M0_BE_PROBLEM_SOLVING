@@ -42,13 +42,13 @@
     #      method on the array to find the lenght of it. Asign this
     #      integer to a variable and call a method on the integer to find and 
     #      return if it is true or false it is an integer.
-    # 5) *Research* Google Ruby method array lenght.
+    # 5) *Research* Google Ruby method array length.
     # 6)
-
+   
     def find_numelements_even (neighbors_names)
-        number_elements = neighbors_names.lenght ()
-        puts "Your street address has #{number_elements} characters"
-        puts "Is the number of characters and spaces of the street address an even number? #{number_elements.even?}."
+        number_elements = neighbors_names.length
+        puts "You have #{number_elements} neighbors"
+        puts "Is the number of neighbors an even number? #{number_elements.even?}."
     end
     find_numelements_even(["Michael", "Ronald", "Aaron", "Linda"])
 # REFLECTION

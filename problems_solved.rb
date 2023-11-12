@@ -45,6 +45,12 @@
     # 5) *Research* Google Ruby method array lenght.
     # 6)
 
+    def find_numelements_even (Neighbors_names)
+        number_elements = Neighbors_names.lenght()
+        puts "Your street address has #{number_elements} characters"
+        puts "Is the number of characters and spaces of the street address an even number? #{number_elements.even?}."
+    end
+    find_numelements_even(["Michael", "Ronald", "Aaron", "Linda"])
 # REFLECTION
 # What do you like about this process?
 # What might make this process challenging?

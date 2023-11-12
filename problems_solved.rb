@@ -73,17 +73,19 @@
 # 5 PM - 8PM: Good evening!
 # 9 PM - 3 AM: Good night!
 
-   # 1) *Restate Goal* Write method called on an integer variable that needs to 
-   #      be greater or equal to 1 and less than or equal to 24 that expresses
-   #      in military time and transforms it to the format HR:MIN AM/PM and
-   #      returns a specific greeting based on the time of day.
-    # 2) *Consider Data* The parameter is an integer, argument a string
-    #      that shows the parameter in the desired format return a specific
-    #       string.
-    # 3) *Clarifying Questions* Will the method of: XXX exist?
-    # 4) *Break it down* Write a method. Parameter is XX. Call a 
-    #      method on the XXX to find XXX.
-    # 5) *Research* Google Ruby method XXX.
+   # 1) *Restate Goal* Write method called on an integer or float variable that  
+   #      needs to be greater or equal to 1 and less than or equal to 24 that 
+   #      expresses in military time and transforms it to the format HR:MIN AM/PM
+   #      and returns a specific greeting based on the time of day.
+    # 2) *Consider Data* The parameter is a number that could be an integer or a float,
+    #      the argument is an integer that shows the parameter in the desired format r
+    #      return a specific string.
+    # 3) *Clarifying Questions* None so far.
+    # 4) *Break it down* Write a method. Parameter is a float. Call a method that 
+    #      a)Evaluates if the string is between 1 and 24, continues or returns a retry msg
+    #      b)Transforms the float into an integer of 4 digits.
+    #      c)Returns corresponding greeting according to the time given. 
+    # 5) *Research* 
     # 6)
 
 

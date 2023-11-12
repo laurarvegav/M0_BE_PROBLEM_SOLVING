@@ -18,7 +18,7 @@
     # 6)
     
     def find_numcharacters_even_streetaddress (street_address)
-        number_characters = street_address.chars.count
+        # number_characters = street_address.chars.count
         puts "Your street address has #{number_characters} characters"
         puts "Is the number of characters and spaces of the street address an even number? #{number_characters.even?}."
     end

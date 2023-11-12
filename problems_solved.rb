@@ -45,8 +45,8 @@
     # 5) *Research* Google Ruby method array lenght.
     # 6)
 
-    def find_numelements_even (Neighbors_names)
-        number_elements = Neighbors_names.lenght()
+    def find_numelements_even (neighbors_names)
+        number_elements = neighbors_names.lenght()
         puts "Your street address has #{number_elements} characters"
         puts "Is the number of characters and spaces of the street address an even number? #{number_elements.even?}."
     end

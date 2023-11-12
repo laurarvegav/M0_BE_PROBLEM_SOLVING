@@ -91,7 +91,21 @@
     def greet_to_militar (military_time)
         if ((military_time < 1) || (military_time > 24))
             puts "The time listed needs to be between 1 and 24"
-        elsif 
+        else 
+            regular_time = military_time * 100
+            if ((regular_time >= 400) && (regular_time <= 1159))
+                puts "Good morning!"
+            elsif ((regular_time >= 1200) && (regular_time <= 1659)).
+                puts "Good afternoon!"
+            elsif ((regular_time >= 1700) && (regular_time <= 2059)).
+                puts "Good evening!"
+            else ((regular_time >= 2100) && (regular_time <= 359)).
+                puts "Good night!"
+            end
+        end
+    end
+
+        greet_to_militar(220)
 
 # Challenge 4 - OPTIONAL! Spicy!
 # Write a method or function that accepts an array of 10 integers 

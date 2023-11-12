@@ -82,12 +82,16 @@
     #      return a specific string.
     # 3) *Clarifying Questions* None so far.
     # 4) *Break it down* Write a method. Parameter is a float. Call a method that 
-    #      a)Evaluates if the string is between 1 and 24, continues or returns a retry msg
+    #      a)Evaluates if the string is not between 1 and 24, returns a retry msg or continues
     #      b)Transforms the float into an integer of 4 digits.
     #      c)Returns corresponding greeting according to the time given. 
     # 5) *Research* 
     # 6)
 
+    def greet_to_militar (military_time)
+        if ((military_time < 1) || (military_time > 24))
+            puts "The time listed needs to be between 1 and 24"
+        elsif 
 
 # Challenge 4 - OPTIONAL! Spicy!
 # Write a method or function that accepts an array of 10 integers 

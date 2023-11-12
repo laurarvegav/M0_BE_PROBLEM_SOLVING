@@ -47,10 +47,11 @@
    
     def find_numelements_even (neighbors_names)
         number_elements = neighbors_names.length
-        puts "You have #{number_elements} neighbors"
+        # puts "You have #{number_elements} neighbors"
         puts "Is the number of neighbors an even number? #{number_elements.even?}."
     end
     find_numelements_even(["Michael", "Ronald", "Aaron", "Linda"])
+    find_numelements_even(["Dog" , "cat", "cat", "parrot", "chicken"])
 # REFLECTION
 # What do you like about this process?
 # What might make this process challenging?

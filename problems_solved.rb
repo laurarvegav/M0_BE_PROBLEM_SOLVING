@@ -13,16 +13,17 @@
     #      method on the string to find the number of characters. Asign this
     #      integer to a variable and call a method on the integer to find and 
     #      return if it is true or false it is an integer.
-    # 5) *Research Google Ruby method number of characters on a string, Google
+    # 5) *Research* Google Ruby method number of characters on a string, Google
     #      Ruby method evaluate if integer is even or odd.
     # 6)
     
     def find_numcharacters_even_streetaddress (street_address)
         number_characters = street_address.chars.count
         puts "Your street address has #{number_characters} characters"
-        puts "Is the number of characters of the street address an even number? #{number_characters.even?}."
+        puts "Is the number of characters and spaces of the street address an even number? #{number_characters.even?}."
     end
-
+    # 7) *Stuck?* No
+    # 8) *Refactor*
     find_numcharacters_even_streetaddress("200 Sunshine Canyon Drive")
 
 # Challenge 2

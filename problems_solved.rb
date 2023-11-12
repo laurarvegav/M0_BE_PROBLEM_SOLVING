@@ -52,10 +52,15 @@
     end
     find_numelements_even(["Michael", "Ronald", "Aaron", "Linda"])
     find_numelements_even(["Dog" , "cat", "cat", "parrot", "chicken"])
+
 # REFLECTION
 # What do you like about this process?
+#   Helps to have your thoughts organized in words that can easily be executed.
 # What might make this process challenging?
+#   When the problem to solve is too complex that you need to keep adding layers to solve it.
 # Are there any steps you would add or modify?
+#   I might need more practice in order to find a combination that helps me as an individual,
+#   the problem solving methodology seems to be standard for diferent ways of thinkng.
 
 #Challenge 3
 # Write a method or function that accepts a number from 1-24 that 

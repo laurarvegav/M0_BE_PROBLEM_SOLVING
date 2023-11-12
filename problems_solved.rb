@@ -18,8 +18,8 @@
     # 6)
     
     def find_numcharacters_even_streetaddress (street_address)
-        # number_characters = street_address.chars.count
-        puts "Your street address has #{number_characters} characters"
+        number_characters = street_address.chars.count
+        #puts "Your street address has #{number_characters} characters"
         puts "Is the number of characters and spaces of the street address an even number? #{number_characters.even?}."
     end
     # 7) *Stuck?* No
@@ -46,7 +46,7 @@
     # 6)
 
     def find_numelements_even (neighbors_names)
-        number_elements = neighbors_names.lenght()
+        number_elements = neighbors_names.lenght
         puts "Your street address has #{number_elements} characters"
         puts "Is the number of characters and spaces of the street address an even number? #{number_elements.even?}."
     end

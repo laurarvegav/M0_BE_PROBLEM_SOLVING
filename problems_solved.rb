@@ -132,5 +132,3 @@ phone_number(marios_number)
 # Challenge 5 - OPTIONAL! Super Spicy!
 # Start with the array of strings below. Print all of the words in the 
 # array, but change every t to an uppercase T.
-
-# Starter array: ['cat', 'dog', 'parrot', 'turtle', 'bird']

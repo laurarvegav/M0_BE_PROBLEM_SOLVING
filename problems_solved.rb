@@ -118,7 +118,7 @@
 
 def phone_number (nine_digits)
     if nine_digits.size == 9
-    puts "#{nine_digits[0]}#{nine_digits[1]}#{nine_digits[2]}-#{nine_digits[3]}#{nine_digits[4]}#{nine_digits[5]}-#{nine_digits[6]}#{nine_digits[7]}#{nine_digits[8]}"
+    puts "#{nine_digits[0..2]}-#{nine_digits[3..5]}-#{nine_digits[6..8]}"
     else
         puts "Please enter a 9 digit number"
     end

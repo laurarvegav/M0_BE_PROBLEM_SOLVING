@@ -116,6 +116,19 @@
 # [5, 5, 5, 1, 2, 3, 4, 5, 6, 7], the method or function will 
 # return 555-123-4567.
 
+def phone_number (nine_digits)
+    if nine_digits.size == 9
+    puts "#{nine_digits[0]}#{nine_digits[1]}#{nine_digits[2]}-#{nine_digits[3]}#{nine_digits[4]}#{nine_digits[5]}-#{nine_digits[6]}#{nine_digits[7]}#{nine_digits[8]}"
+    else
+        puts "Please enter a 9 digit number"
+    end
+end
+
+lauras_number = [3,1,6,7,4,3,9,9,2]
+marios_number = [8,5,9,4,8,8,2,2,1]
+phone_number(lauras_number)
+phone_number(marios_number)
+
 # Challenge 5 - OPTIONAL! Super Spicy!
 # Start with the array of strings below. Print all of the words in the 
 # array, but change every t to an uppercase T.
